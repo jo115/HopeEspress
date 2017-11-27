@@ -34,6 +34,10 @@ body.canvas-slid {
   transition: none !important;
 }
 
+h1{
+  font-color: "white";
+}
+
 img {
   display: block;
   max-width: 100%;
