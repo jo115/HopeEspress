@@ -15,23 +15,16 @@
         </div>
         <nav>
           <ul>
-            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="products.html">Products</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li class="current"><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
 
           </ul>
         </nav>
       </div>
     </header>
-
-    <section id="showcase">
-      <div class="container">
-        <h1>Handmade cosmetics</h1>
-        <p>Help single parents in London build a sustainable future with Hope Espress range of handmade cosmetics</p>
-      </div>
-    </section>
 
     <section id="newsletter">
       <div class="container">
@@ -43,23 +36,30 @@
       </div>
     </section>
 
-    <section id="boxes">
+    <section id="main">
       <div class="container">
-        <div class="box">
-          <img src="./img/1.png">
-          <h3>Hand made</h3>
-          <p>Each product is carefully crafted by a local, using locally sourced ingredients</p>
-        </div>
-        <div class="box">
-          <img src="./img/2.png">
-          <h3>Sustainable</h3>
-          <p>We are committed to reducing wasteful coffee grounds and turn this into something beautiful</p>
-        </div>
-        <div class="box">
-          <img src="./img/3.png">
-          <h3>Ethical</h3>
-          <p>Our products help single parents create a sustainable revenue stream while helping reducing waste</p>
-        </div>
+        <article id="main-col">
+          <h1 class="page-title">Articles</h1>
+          <ul id="services">
+            <li>
+              <h3>Exfoliate twice a week for smoother skin</h3>
+              <p>Stay smooth this winter using body srubs twice weekly, you'll notice the difference</p>
+						  <p>Related product: Coffee Body Scrub</p>
+            </li>
+            <li>
+              <h3>It's time to get coconut-ty!</h3>
+              <p>Indulge yourself this Christmas with a coconut-ty body lotion</p>
+						  <p>Product related: Coconut Body Lotion</p>
+            </li>
+            <li>
+              <h3>Scrub in a cube</h3>
+              <p>Going on a vacation and still want to have smooth skin? We have came up with a coffee scrub cube that is portable and easy to use</p>
+						  <p>Product related: Coffee Scrub Cube</p>
+            </li>
+          </ul>
+        </article>
+
+        
       </div>
     </section>
 
