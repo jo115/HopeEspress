@@ -82,8 +82,11 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('../img/showcase.gif') no-repeat 0 -400px;
-  text-align:center;
+  background:url('../img/showcase.gif') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color:#1f1e17;
 }
 
